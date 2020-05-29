@@ -6,6 +6,10 @@ The widespread use of neural networks across different scientific domains often 
 
 
 ## Citation
-```
-To be updated
-```
+
+    @article{wang2020understanding,
+      title={Understanding and mitigating gradient pathologies in physics-informed neural networks},
+      author={Wang, Sifan and Teng, Yujun and Perdikaris, Paris},
+      journal={arXiv preprint arXiv:2001.04536},
+      year={2020}
+    }
