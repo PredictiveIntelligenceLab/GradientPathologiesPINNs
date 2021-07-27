@@ -291,7 +291,7 @@ class Klein_Gordon:
                 W = self.weights[l]
                 b = self.biases[l]
                 H = tf.math.multiply(tf.tanh(tf.add(tf.matmul(H, W), b)), encoder_1) + \
-                    tf.math.multiply(tf.tanh(tf.add(1 - tf.matmul(H, W), b)), encoder_2)
+                    tf.math.multiply(1 - tf.tanh(tf.add(tf.matmul(H, W), b)), encoder_2)
 
             W = self.weights[-1]
             b = self.biases[-1]
