@@ -6,8 +6,7 @@ The widespread use of neural networks across different scientific domains often 
 
 
 ## Citation
-
-        @article{wang2021understanding,
+  @article{wang2021understanding,
           title={Understanding and mitigating gradient flow pathologies in physics-informed neural networks},
           author={Wang, Sifan and Teng, Yujun and Perdikaris, Paris},
           journal={SIAM Journal on Scientific Computing},
@@ -17,3 +16,4 @@ The widespread use of neural networks across different scientific domains often 
           year={2021},
           publisher={SIAM}
         }
+        
