@@ -16,4 +16,4 @@ The widespread use of neural networks across different scientific domains often 
       pages={A3055--A3081},
       year={2021},
       publisher={SIAM}
-    }
+      }
